@@ -1,0 +1,7 @@
+import qrcode
+img = qrcode.make("github.com/gwenfuri2")
+
+print(type(img))
+print(img.size)
+
+img.show()
